@@ -1,0 +1,108 @@
+ body {
+     background-color: lightblue;
+     text-align: center;
+     font-family: courier;
+     font-size: 15px;
+     margin: auto;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+ }
+ 
+ h3 {
+     color: bluebold;
+     font-family: verdana;
+     font-size: 200%;
+     text-align: center;
+ }
+ 
+ .parentcontainer {
+     background-color: blue;
+     color: black;
+     margin: 10px;
+     padding: 10px;
+     width: 30%;
+     height: 70%;
+     border: 1px solid red;
+     position: fixed;
+     top: 140px;
+     right: 10px;
+ }
+ 
+ .header {
+     background-color: gray;
+     position: fixed;
+     width: 100%;
+     height: 20%;
+     margin-top: 0px;
+ }
+ 
+ #list {
+     list-style-type: none;
+     padding: 0px;
+     overflow: hidden;
+ }
+ 
+ #list li {
+     float: left;
+     list-style-type: none;
+ }
+ 
+ #list a:link,
+ a:visited {
+     background-color: blue;
+     color: white;
+     padding: 5px;
+     text-decoration: none;
+     text-transform: uppercase;
+     display: block;
+     width: 200px;
+     text-align: center;
+ }
+ 
+ #list a:hover {
+     background-color: black;
+ }
+ 
+ .image {
+     width: 130px;
+     height: 135px;
+     position: fixed;
+     top: 15px;
+     left: 2px;
+ }
+ 
+ .footer {
+     background-color: #ff0;
+     position: absolute;
+     width: 100%;
+     height: 50px;
+     bottom: 1px;
+     text-align: center;
+ }
+ 
+ .container {
+     background-color: green;
+     color: black;
+     margin: 10px;
+     padding: 10px;
+     width: 30%;
+     height: 70%;
+     border: 1px solid orange;
+     position: fixed;
+     top: 140px;
+     left: 10px;
+ }
+ 
+ #menu a {
+     color: black;
+     padding: 0px 0px;
+     text-decoration: none;
+     border-radius: 5px 5px 0px 0px;
+     margin: 5px;
+ }
+ 
+ #menu li {
+     padding left: 15px;
+     list-style-type: none;
+ }
